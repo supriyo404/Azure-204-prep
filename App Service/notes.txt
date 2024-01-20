@@ -1,1 +1,21 @@
 We can run containers on app services on linux.
+App service plan - 
+1.Shared compute
+2.Dedicated
+3.Isolated
+4.Consupmtion for Azure functions
+
+App service networking features
+Multitenant App service -
+  1. Inbound features -
+      - App assigned address
+      - Access restricions
+      - Service endpoints
+      - Private endpoints
+  2. Outbound features - 
+      - Hybrid connections
+      - Gateway-required VNet integration
+      - Vnet Integration
+Single tenant networking 
+  1. External: Exposed the host by using a public ip address.
+  2. Internal load balancer: Exposes app on IP address inside virtual network.
